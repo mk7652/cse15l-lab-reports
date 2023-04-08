@@ -8,6 +8,8 @@ In order to remote connect, you must first log onto your account look up with yo
 
 After you have successfully input your password and your terminal looks like the first image, you may now start typing in some commands. Some commands which I typed in are ls, which tells you what is in a certian driectory and if nothing is typed after the command it is what is in the current directory, cd, which is change directory and if nothing is typed after the command it goes to the home directory, pwd, which shows the current working directory, and cat, which conactinates. An example of some of these commands in use is displayed in the image below. 
 
+![Screen Shot 2023-04-08 at 11.48.14 AM.png](
+
 
 
 
