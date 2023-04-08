@@ -4,7 +4,7 @@ In order to remote connect, you must first log onto your account look up with yo
 
 ![Screen Shot 2023-04-08 at 11.20.36 AM.png](https://github.com/mk7652/cse15l-lab-reports/blob/main/Screen%20Shot%202023-04-08%20at%2011.20.36%20AM.png)
 
-![Screen Shot 2023-04-08 at 11.25.09 AM.png](
+![Screen Shot 2023-04-08 at 11.25.09 AM.png](https://github.com/mk7652/cse15l-lab-reports/blob/main/Screen%20Shot%202023-04-08%20at%2011.25.09%20AM.png)
 
 
 
