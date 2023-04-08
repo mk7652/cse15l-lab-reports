@@ -2,4 +2,6 @@ This tutorial will be about how to remote connect and typing in and testing out 
 
 In order to remote connect, you must first log onto your account look up with your username and student PID. You will see a list of course specific accounts and you must change the password of your account for CSE 15L as you will be using this new password later. Then go to VSCode and open a new terminal and type in the command ssh cs15lsp23zz@ieng6.ucsd.edu but replace the zz with the letters in your id. Then Because I have already loged in before it will ask me to input my password. If your password is correct it will load something like the following if incorrect you will get an error.
 
+![Screen Shot 2023-04-08 at 11.20.36 AM.png]
+
 
