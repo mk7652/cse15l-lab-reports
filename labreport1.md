@@ -1,3 +1,5 @@
+## Lab Report 1
+
 This tutorial will be about how to remote connect and typing in and testing out some useful commands. Despite the lab report asking to include how to install VS code, I already had it installed on my conputer from CSE 8B as we used it for our PAs and I do not remember how I installed it. Also, because I am a Mac user, I did not have to install git so my report skips past that part as well. Therefore, my lab report will begin at how to remote connect.
 
 ## Remote Connecting
