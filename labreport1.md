@@ -1,10 +1,22 @@
 ## Lab Report 1
 
-This tutorial will be about how to remote connect and typing in and testing out some useful commands. Despite the lab report asking to include how to install VS Code, I already had it installed on my computer from CSE 8B as we used it for our PAs and I do not remember how I installed it. Also, because I am a Mac user, I did not have to install git so my report skips past that part as well. Therefore, my lab report will begin at how to remote connect.
+This tutorial will be about how to install visual source code, remote connect, and typing in and testing out some useful commands in the terminal. 
+
+## Installing Visual Source Code
+
+First, before you do anything else, you must instal Visual Source Code onto your computer. To instal it please follow [this link](https://code.visualstudio.com/). Once you open the link you will see a website that looks like the following image.
+
+![Image](CSE15LScreenShotVSC.png)
+
+Then, press download and follow the prompts it provides you until you have successfully installed it onto your computer.
+
+##Installing Git (Windows Users Only)
+
+If you are a Windows user, you must install git onto your computer in order to remote connect. To do this please follow [this link](https://gitforwindows.org/) and follow all of the procedures to download git onto your computer. After you complete the download, please follow the steps in [this post](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to set your new terminal up to use git bash as its default
 
 ## Remote Connecting
 
-In order to remote connect, you must first log onto your account look up with your username and student PID. You will see a list of course specific accounts and you must change the password of your account for CSE 15L as you will be using this new password later. Then go to VS Code and open a new terminal and type in the command ssh cs15lsp23zz@ieng6.ucsd.edu but replace the zz with the letters in your ID. Then, because I have already loged in before, it will ask me to input my password for my CSE 15L account (this is the password you had to change earlier). If your password is correct it will load something like what is in the following image. If it is incorrect, you will be prompted to enter you password again as displayed by the second image.
+In order to remote connect, you must first log onto your account look up with your username and student PID. You will see a list of course specific accounts and you must change the password of your account for CSE 15L as you will be using this new password later. Then go to VS Code and open a new terminal and type in the command `ssh cs15lsp23zz@ieng6.ucsd.edu` but replace the `zz` with the letters in your ID. Then, because I have already loged in before, it will ask me to input my password for my CSE 15L account (this is the password you had to change earlier). If your password is correct it will load something like what is in the following image. If it is incorrect, you will be prompted to enter you password again as displayed by the second image.
 
 ![Image](CSE15LSS1.png)
 
@@ -12,7 +24,7 @@ In order to remote connect, you must first log onto your account look up with yo
 
 ## Commands
 
-After you have successfully input your password, and your terminal looks like the first image, you may now start typing in some commands. Some commands which I typed in are ls, which tells you what is in a certian driectory and if nothing is typed after the command it is what is in the current directory, cd, which is change directory and if nothing is typed after the command it goes to the home directory, pwd, which shows the current working directory, and cat, which conactinates. An example of some of these commands in use is displayed in the image below. 
+After you have successfully input your password, and your terminal looks like the first image, you may now start typing in some commands. Some commands which I typed in are `ls`, which tells you what is in a certian driectory and if nothing is typed after the command it is what is in the current directory, `cd`, which is change directory and if nothing is typed after the command it goes to the home directory, `pwd`, which shows the current working directory, and `cat`, which conactinates. An example of some of these commands in use is displayed in the image below. 
 
 ![Image](CSE15LSS3.png)
 
