@@ -22,7 +22,7 @@ In order to remote connect, you must follow these three steps:
 
 2. Go to VS Code and open a new terminal and type in the command `ssh cs15lsp23zz@ieng6.ucsd.edu` but replace the `zz` with the letters in your ID.
  
-3. Then, because I have already loged in before, it will ask me to input my password for my CSE 15L account (this is the password you had to change earlier). If your password is correct it will load something like what is in the following image. 
+3. Then, because I have already loged in before, it will ask me to input my password for my CSE 15L account (this is the password you had to change earlier). Don't worry if you cannot see the password as you are typing it in, the reason it is hidden is due to security reasons. If your password is correct it will load something like what is in the following image. 
 
 ![Image](CSE15LSS1.png)
 
