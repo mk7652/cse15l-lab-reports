@@ -26,7 +26,7 @@ In order to remote connect, you must follow these three steps:
 
 ![Image](CSE15LSS1.png)
 
-If it is incorrect, you will be prompted to enter you password again as displayed by the second image.
+If it is incorrect, you will be prompted to enter you password again as displayed by the following image.
 
 ![Image](CSE15LSS2.png)
 
