@@ -10,15 +10,23 @@ First, before you do anything else, you must instal Visual Source Code onto your
 
 Then, press download and follow the prompts it provides you until you have successfully installed it onto your computer.
 
-##Installing Git (Windows Users Only)
+## Installing Git (Windows Users Only)
 
 If you are a Windows user, you must install git onto your computer in order to remote connect. To do this please follow [this link](https://gitforwindows.org/) and follow all of the procedures to download git onto your computer. After you complete the download, please follow the steps in [this post](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994) to set your new terminal up to use git bash as its default
 
 ## Remote Connecting
 
-In order to remote connect, you must first log onto your account look up with your username and student PID. You will see a list of course specific accounts and you must change the password of your account for CSE 15L as you will be using this new password later. Then go to VS Code and open a new terminal and type in the command `ssh cs15lsp23zz@ieng6.ucsd.edu` but replace the `zz` with the letters in your ID. Then, because I have already loged in before, it will ask me to input my password for my CSE 15L account (this is the password you had to change earlier). If your password is correct it will load something like what is in the following image. If it is incorrect, you will be prompted to enter you password again as displayed by the second image.
+In order to remote connect, you must follow these three steps:
+
+1. Log onto your account look up with your username and student PID. You will see a list of course specific accounts and you must change the password of your account for CSE 15L as you will be using this new password later.
+
+2. Go to VS Code and open a new terminal and type in the command `ssh cs15lsp23zz@ieng6.ucsd.edu` but replace the `zz` with the letters in your ID.
+ 
+3. Then, because I have already loged in before, it will ask me to input my password for my CSE 15L account (this is the password you had to change earlier). If your password is correct it will load something like what is in the following image. 
 
 ![Image](CSE15LSS1.png)
+
+If it is incorrect, you will be prompted to enter you password again as displayed by the second image.
 
 ![Image](CSE15LSS2.png)
 
