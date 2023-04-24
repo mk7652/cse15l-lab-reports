@@ -1,10 +1,10 @@
 ## Lab Report 1
 
-This tutorial will be about how to install visual source code, remote connect, and typing in and testing out some useful commands in the terminal. 
+This tutorial will be about how to install VSCode, remote connect, and typing in and testing out some useful commands in the terminal. 
 
-## Installing Visual Source Code
+## Installing VSCode
 
-First, before you do anything else, you must instal Visual Source Code onto your computer. To instal it please follow [this link](https://code.visualstudio.com/). Once you open the link you will see a website that looks like the following image.
+First, before you do anything else, you must install VSCode onto your computer. To install it please follow [this link](https://code.visualstudio.com/). Once you open the link you will see a website that looks like the following image.
 
 ![Image](CSE15LScreenShotVSC.png)
 
@@ -20,7 +20,7 @@ In order to remote connect, you must follow these three steps:
 
 1. Log onto your account look up with your username and student PID. You will see a list of course specific accounts and you must change the password of your account for CSE 15L as you will be using this new password later.
 
-2. Go to VS Code and open a new terminal and type in the command `ssh cs15lsp23zz@ieng6.ucsd.edu` but replace the `zz` with the letters in your ID.
+2. Go to VSCode and open a new terminal and type in the command `ssh cs15lsp23zz@ieng6.ucsd.edu` but replace the `zz` with the letters in your ID.
  
 3. Then, because I have already loged in before, it will ask me to input my password for my CSE 15L account (this is the password you had to change earlier). Don't worry if you cannot see the password as you are typing it in, the reason it is hidden is due to security reasons. If your password is correct it will load something like what is in the following image. 
 
