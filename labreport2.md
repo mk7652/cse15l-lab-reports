@@ -13,7 +13,7 @@ Some JUnit test which I used to debug this code are:
 
 - A JUnit test that works despite the bug is `@Test public void testReverseInPlace() { int[] input1 = { 3 }; ArrayExamples.reverseInPlace(input1); assertArrayEquals(new int[]{ 3 }, input1);`. Its symptom is displayed in the image below:
 
-![Image](CSE15l_Labreport2_ScreenShot2.png)
+![Image](CSE15L_Labreport2_ScreenShot2.png)
 
 
 
