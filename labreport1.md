@@ -36,7 +36,7 @@ After you have successfully input your password you may now start typing in some
 - `ls`: this tells you what is in a certian driectory and if nothing is typed after the command it is what is in the current directory.
 - `cd`: this will change your current working directory and if nothing is typed after the command it goes to the home directory.
 - `pwd`: this shows the current working directory.
-- `cat`: this prints the contents in the files given by the paths. its format looks like `<path1> <path2> ... cat`.
+- `cat`: this prints the contents in the files given by the paths. Its format looks like `<path1> <path2> ... cat` and you can include as many paths as you would like.
 - `ssh`: this switches your terminal to running commands on another computer. 
 - `scp`: this copies files from one computer to another. Its format looks like `<scp file1> <username>@<servername>:<path>` and you can include as many files as you want.
 
