@@ -32,7 +32,15 @@ If it is incorrect, you will be prompted to enter you password again as displaye
 
 ## Commands
 
-After you have successfully input your password, and your terminal looks like the first image, you may now start typing in some commands. Some commands which I typed in are `ls`, which tells you what is in a certian driectory and if nothing is typed after the command it is what is in the current directory, `cd`, which is change directory and if nothing is typed after the command it goes to the home directory, `pwd`, which shows the current working directory, and `cat`, which conactinates. An example of some of these commands in use is displayed in the image below. 
+After you have successfully input your password you may now start typing in some commands. Some commands which I typed in are:
+- `ls`: this tells you what is in a certian driectory and if nothing is typed after the command it is what is in the current directory.
+- `cd`: this is change directory and if nothing is typed after the command it goes to the home directory.
+- `pwd`: this shows the current working directory.
+- `cat`: this conactinates the given arguments.
+- `ssh`: this switches your terminal to running commands on another computer. 
+- `scp`: this copies files from one computer to another. Its format looks like `<file1> <username>@<servername>:<path>` and you can include as many files as you want.
+
+An example of some of these commands in use is displayed in the image below. 
 
 ![Image](CSE15LSS3.png)
 
