@@ -46,7 +46,6 @@ The relevant arguments of these methods are as follows:
 A field whose value is changed is `message` as `"\n" + "See you later!"` is added to it. Below is another two screenshots of my website when the path contains `add-message`:
 
 ![Image](CSE15L_LabReport2_ScreenShotWebsite2.1.png)
-
 ![Image](CSE15L_LabReport2_ScreenShotWebsite2.2.png)
 
 In these two screenshots, there were multiple methods called. These methods were:
