@@ -3,12 +3,12 @@
 
 For part 1, I created a website which adds messages to your collection of messages and displays all the messages you have added. Here are screenshots of my code and the terminal:
 
-![Image](CSE15L_LabReport2_ScreenShot1)
+![Image](CSE15L_LabReport2_ScreenShot1.png)
 
 Below are two screenshots of my website when the path contains `add-message`:
 
-![Image](CSE15L_LabReport2_ScreenShotWebsite1.1)
-![Image](CSE15L_LabReport2_ScreenShotWebsite1.2)
+![Image](CSE15L_LabReport2_ScreenShotWebsite1.1.png)
+![Image](CSE15L_LabReport2_ScreenShotWebsite1.2.png)
 
 In these two screenshots, there were multiple methods called. These methods were:
 - `getPath()`
@@ -38,6 +38,9 @@ The relevant arguments of these methods are as follows:
 - `parseInt("7823")`
 - `start(7823, new Handler())`
 - `String message = "How are you?" + "\n" + "I'm good how are you?" + "\n" + "I'm good too!" + "\n" + "Bye!" + "\n" + "See you later!"`
+- `handleRequest(http://localhost:7823/add-message?s=See%20you%20later!)`
+
+
 
 
 
