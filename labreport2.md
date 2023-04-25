@@ -1,7 +1,45 @@
 # Lab Report 2
 ## Part 1
 
-For part 1, I created a website which adds messages to your collection of messages and displays all the messages you have added. 
+For part 1, I created a website which adds messages to your collection of messages and displays all the messages you have added. Here are screenshots of my code and the terminal:
+
+![Image](CSE15L_LabReport2_ScreenShot1)
+
+Below are two screenshots of my website when the path contains `add-message`:
+
+![Image](CSE15L_LabReport2_ScreenShotWebsite1.1)
+![Image](CSE15L_LabReport2_ScreenShotWebsite1.2)
+
+In these two screenshots, there were multiple methods called. These methods were:
+- `getPath()`
+- `equals()`
+- `format()`
+- `contains()`
+- `getQuery()`
+- `split()`
+- `println()`
+- `main(String[] arr)`
+- `length`
+- `parseInt()`
+- `start()`
+- `handleRequest(URI url)`
+
+The relevant arguments of these methods are as follows:
+- `getPath()` (takes no arguments)
+- `equals("/")` 
+- `format("Your messages: %s", "Hello!" + "\n" + "How are you?" + "\n" + "I'm good how are you?" + "\n" + "I'm good too!" + "\n" + "Bye!" + "\n" + "See you later!")`
+- `format("Added %s to your messages!", "See you later!")`
+- `contains("/add-message")`
+- `getQuery()` (takes no arguments)
+- `split("=")` 
+- `println("Added " + "See you later!" + " to your messages!")`
+- `println("See you later!")`
+- `main("7823")`
+- `parseInt("7823")`
+- `start(7823, new Handler())`
+- `String message = "How are you?" + "\n" + "I'm good how are you?" + "\n" + "I'm good too!" + "\n" + "Bye!" + "\n" + "See you later!"`
+
+
 
 
 
