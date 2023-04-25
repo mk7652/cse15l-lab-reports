@@ -1,3 +1,10 @@
+# Lab Report 2
+## Part 1
+
+For part 1, I created a website which adds messages to your collection of messages and displays all the messages you have added. 
+
+
+
 ## Part 2
 
 For the method `reverseInPlace` there are two crutial bugs in the code:
