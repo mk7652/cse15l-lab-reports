@@ -37,14 +37,45 @@ The relevant arguments of these methods are as follows:
 - `main("7823")`
 - `parseInt("7823")`
 - `start(7823, new Handler())`
-- `String message = "How are you?" + "\n" + "I'm good how are you?" + "\n" + "I'm good too!" + "\n" + "Bye!" + "\n" + "See you later!"`
+- `String message = "How are you?" + "\n" + "I'm good how are you?" + "\n" + "I'm good too!" + "\n" + "Bye!" + "\n" + "See you later!"` (this is a field)
 - `handleRequest(http://localhost:7823/add-message?s=See%20you%20later!)`
 
+A field whose value is changed is `message` as `"\n" + "See you later!"` is added to it. Below is another two screenshots of my website when the path contains `add-message`:
 
+![Image](CSE15L_LabReport2_ScreenShotWebsite2.1.png)
+![Image](CSE15L_LabReport2_ScreenShotWebsite2.2.png)
 
+In these two screenshots, there were multiple methods called. These methods were:
+- `getPath()`
+- `equals()`
+- `format()`
+- `contains()`
+- `getQuery()`
+- `split()`
+- `println()`
+- `main(String[] arr)`
+- `length`
+- `parseInt()`
+- `start()`
+- `handleRequest(URI url)`
 
+The relevant arguments of these methods are as follows:
+- `getPath()` (takes no arguments)
+- `equals("/")` 
+- `format("Your messages: %s", "Hello!" + "\n" + "How are you?" + "\n" + "I'm good how are you?" + "\n" + "I'm good too!" + "\n" + "Bye!" + "\n" + "See you later!" + "\n" + "It was good seeing you!")`
+- `format("Added %s to your messages!", "It was good seeing you!")`
+- `contains("/add-message")`
+- `getQuery()` (takes no arguments)
+- `split("=")` 
+- `println("Added " + "It was good seeing you!" + " to your messages!")`
+- `println("It was good seeing you!")`
+- `main("7823")`
+- `parseInt("7823")`
+- `start(7823, new Handler())`
+- `String message = "How are you?" + "\n" + "I'm good how are you?" + "\n" + "I'm good too!" + "\n" + "Bye!" + "\n" + "See you later! "\n" + "It was good seeing you!"` (this is a field)
+- `handleRequest(http://localhost:7823/add-message?s=It%20was%20good%20seeing%20you!)`
 
-
+A field whose value is changed is `message` as `"\n" + "It was good seeing you!"` is added to it.
 
 ## Part 2
 
@@ -71,8 +102,3 @@ To get rid of the bugs, I did the following steps:
 ## Part 3
 
 After completing the two labs, I learned how to make a website and update values on the website depending on the path which you type. I had no idea how to do this before and I think its a really cool skill to have.
-
-
-
-
-
