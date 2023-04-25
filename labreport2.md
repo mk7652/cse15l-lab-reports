@@ -2,13 +2,11 @@
 ## Part 1
 
 For part 1, I created a website which adds messages to your collection of messages and displays all the messages you have added. Here are screenshots of my code and the terminal:
-
 ![Image](CSE15L_LabReport2_ScreenShot1.png)
 
 ![Image](CSE15L_LabReport2_ScreenShotCode1.png)
 
 Below are two screenshots of my website when the path contains `add-message`:
-
 ![Image](CSE15L_LabReport2_ScreenShotWebsite1.1.png)
 
 ![Image](CSE15L_LabReport2_ScreenShotWebsite1.2.png)
@@ -44,8 +42,8 @@ The relevant arguments of these methods are as follows:
 - `handleRequest(http://localhost:7823/add-message?s=See%20you%20later!)`
 
 A field whose value is changed is `message` as `"\n" + "See you later!"` is added to it. Below is another two screenshots of my website when the path contains `add-message`:
-
 ![Image](CSE15L_LabReport2_ScreenShotWebsite2.1.png)
+
 ![Image](CSE15L_LabReport2_ScreenShotWebsite2.2.png)
 
 In these two screenshots, there were multiple methods called. These methods were:
