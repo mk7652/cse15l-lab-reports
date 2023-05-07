@@ -76,7 +76,7 @@ The relevant arguments of these methods are as follows:
 - `String message = "How are you?" + "\n" + "I'm good how are you?" + "\n" + "I'm good too!" + "\n" + "Bye!" + "\n" + "See you later! "\n" + "It was good seeing you!"` (this is a field)
 - `handleRequest(http://localhost:7823/add-message?s=It%20was%20good%20seeing%20you!)`
 
-A field whose value is changed is `message` as `"\n" + "It was good seeing you!"` is added to it.
+A field whose value is changed is `message` as `"\n" + "It was good seeing you!"` is added to it. `add-message` works by first calling
 
 ## Part 2
 
