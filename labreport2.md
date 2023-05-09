@@ -25,6 +25,13 @@ In these two screenshots, there were multiple methods called. These methods were
 - `start()`
 - `handleRequest(URI url)`
 
+The methods work as follows:
+1. The user compiles and runs the code by calling `main()` with one argument which is a port number. This results in a link being created using the method `Integer.parseInt()` to create an integer out of the port number String argument followed by `start()` which the user can visit. If there were no arguments, meaning `arr.length == 0` then the program prints the error message `"Missing port number! Try any number between 1024 to 49151` and returns.
+2. As then the method `handleRequest()` takes in the url as an argument. Afterwhich the following occurs:
+- if `url.getPath.equals("/")` then the website will display `Your messages:` with your messages displayed below it. It does this by calling the method `format` which prints the strings in a specified format. Then the method returns
+- if `url.getPath.contains("/add-message")` then `String[] param = url.getQuery().split("=")` is called which splits the string into two and creates a new string array. Then, `System.out.println("Added " + param[1] + " to your messages!")` and `System.out.println(param[1])` is printed into the terminal and `String.format("Added %s to your messages!", param[1])` is returned which is displayed on the web page.
+- if `url.getPath.equals("/") == false || url.getPath.contains("/add-message") == false` then the `"404 Not Found!"` is returned and is displayed on the webpage.
+
 The relevant arguments of these methods are as follows:
 - `getPath()` (takes no arguments)
 - `equals("/")` 
@@ -59,6 +66,8 @@ In these two screenshots, there were multiple methods called. These methods were
 - `parseInt()`
 - `start()`
 - `handleRequest(URI url)`
+
+If you want to know the details of how the method is called refer to the previous part where I described how the methods are called and implemented but replace the arguments of the methods in the descriptions eith the ones that follow.
 
 The relevant arguments of these methods are as follows:
 - `getPath()` (takes no arguments)
