@@ -4,7 +4,7 @@
 `grep` is a command line operation which searches the provided file or files for the provided string and prints the matching lines. Its format is `grep <<string>> <<file>>`. 
 Below are some interesting implementations of grep which I found on [wikibooks](https://en.wikibooks.org/wiki/Grep). 
 
-##`grep -i`
+## `grep -i`
 
 `grep -i` searches the provided files for the provided string and ignores case. an example of this command in use is displayed below.
 
@@ -18,7 +18,7 @@ Below are some interesting implementations of grep which I found on [wikibooks](
     The hijackers attacked at 9:28. While traveling 35,000 feet above eastern Ohio, United 93 suddenly dropped 700 feet. Eleven seconds into the descent, the FAA's air traffic control center in Cleveland received the first of two radio transmissions from the aircraft. During the first broadcast, the captain or first officer could be heard declaring "Mayday" amid the sounds of a physical struggle in the cockpit. The second radio transmission, 35 seconds later, indicated that the fight was continuing. The captain or first officer could be heard shouting:" Hey get out of here-get out of here-get out of here."
     The NEADS technician who took this call from the FAA immediately passed the word to the mission crew commander, who reported to the NEADS battle commander: Mission Crew Commander, NEADS: Okay, uh, American Airlines is still airborne. Eleven, the first guy, he's heading towards Washington. Okay? I think we need to scramble Langley right now. And I'm gonna take the fighters from Otis, try to chase this guy down if I can find him.`
  
- ##`grep -o`
+ ## `grep -o`
  
 `grep -o` searches the given file for the specified string and just prints out the string in the line of the file. An example of this is seen below.
  
@@ -32,7 +32,7 @@ This command seems to only be useful if you want to see how many times the exact
 
 `Mias-Air:stringsearch-data  miakhattar$ grep -o "duck" technical/911report/chapter-1.txt`
 
-##`grep -l` 
+## `grep -l` 
 
 `grep -l` searches the given files for the specified string and prints out the matching file which contains the string only. An example of this is seen below.
 
@@ -46,7 +46,7 @@ I noticed that when I used `grep -l` on a file which contained the string then i
 technical/911report/chapter-1.txt
 Mias-Air:stringsearch-data  miakhattar$ grep -l "all five" technical/911report/chapter-1.txt`
 
-##`grep -n` 
+## `grep -n` 
 
 The last `grep` command i will be talking about is `grep -n`. This command takes in a string and searches a given file for it and prints out the lines and the line numbers as well. An example of this may be seen below.
 
