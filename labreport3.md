@@ -2,7 +2,7 @@
 ## `grep` Implementations
 
 `grep` is a command line operation which searches the provided file or files for the provided string and prints the matching lines. Its format is `grep <<string>> <<file>>`. 
-Below are some interesting implementations of grep which I found on [wikibooks](https://en.wikibooks.org/wiki/Grep). 
+Below are some interesting implementations of grep all of which I found on [wikibooks](https://en.wikibooks.org/wiki/Grep). 
 
 ## `grep -i`
 
@@ -12,7 +12,7 @@ Below are some interesting implementations of grep which I found on [wikibooks](
  While Atta had been selected by CAPPS in Portland, three members of his hijacking team-Suqami, Wail al Shehri, and Waleed al Shehri-were selected in Boston. Their selection affected only the handling of their checked bags, not their screening at the checkpoint. All five men cleared the checkpoint and made their way to the gate for American 11. Atta, Omari, and Suqami took their seats in business class (seats 8D, 8G, and 10B, respectively). The Shehri brothers had adjacent seats in row 2 (Wail in 2A, Waleed in 2B), in the firstclass cabin. They boarded American 11 between 7:31 and 7:40. The aircraft pushed back from the gate at 7:40.
  All five hijackers passed through the Main Terminal's west security screening checkpoint; United Airlines, which was the responsible air carrier, had contracted out the work to Argenbright Security.`
  
- This command is particularly usefule if you wanted to find a word or words in a document and you dont care if its upper case or lower case. An example of a situation that one might use this in is if you are looking through a document to try to find information about a certian vocabulary term and you dont care if its capital or lowercase because you just want information about the term. It is somewhat similar to `ctrl + f` to search through a document for a term. Another example of it being used is seen below. 
+ This command is particularly useful if you wanted to find a word or words in a document and you don't care if its upper case or lower case. An example of a situation that one might use this in is if you are looking through a document to try to find information about a certian vocabulary term and you dont care if its capital or lowercase because you just want information about the term. It is some what similar to `ctrl + f` to search through a document for a term. Another example of it being used is seen below. 
  
  `Mias-Air:stringsearch-data  miakhattar$ grep -i "eleven" technical/911report/chapter-1.txt
     The hijackers attacked at 9:28. While traveling 35,000 feet above eastern Ohio, United 93 suddenly dropped 700 feet. Eleven seconds into the descent, the FAA's air traffic control center in Cleveland received the first of two radio transmissions from the aircraft. During the first broadcast, the captain or first officer could be heard declaring "Mayday" amid the sounds of a physical struggle in the cockpit. The second radio transmission, 35 seconds later, indicated that the fight was continuing. The captain or first officer could be heard shouting:" Hey get out of here-get out of here-get out of here."
@@ -48,7 +48,7 @@ Mias-Air:stringsearch-data  miakhattar$ grep -l "all five" technical/911report/c
 
 ## `grep -n` 
 
-The last `grep` command i will be talking about is `grep -n`. This command takes in a string and searches a given file for it and prints out the lines and the line numbers as well. An example of this may be seen below.
+The last `grep` command I will be talking about is `grep -n`. This command takes in a string and searches a given file for it and prints out the lines and the line numbers as well. An example of this may be seen below.
 
 `Mias-Air:stringsearch-data  miakhattar$ grep -n "All five" technical/911report/chapter-1.txt
 34:    While Atta had been selected by CAPPS in Portland, three members of his hijacking team-Suqami, Wail al Shehri, and Waleed al Shehri-were selected in Boston. Their selection affected only the handling of their checked bags, not their screening at the checkpoint. All five men cleared the checkpoint and made their way to the gate for American 11. Atta, Omari, and Suqami took their seats in business class (seats 8D, 8G, and 10B, respectively). The Shehri brothers had adjacent seats in row 2 (Wail in 2A, Waleed in 2B), in the firstclass cabin. They boarded American 11 between 7:31 and 7:40. The aircraft pushed back from the gate at 7:40.
