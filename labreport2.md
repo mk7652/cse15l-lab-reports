@@ -26,10 +26,10 @@ In these two screenshots, there were multiple methods called. These methods were
 - `handleRequest(URI url)`
 
 The methods work as follows:
-1. The user compiles and runs the code by calling `main()` with one argument which is a port number. This results in a link being created using the method `Integer.parseInt()` to create an integer out of the port number String argument followed by `start()` which the user can visit. If there were no arguments, meaning `arr.length == 0` then the program prints the error message `"Missing port number! Try any number between 1024 to 49151` and returns.
-2. Then the method `handleRequest()` takes in the url as an argument. Afterwhich the following occurs:
-- if `url.getPath.equals("/")` then the website will display `Your messages:` with your messages displayed below it. It does this by calling the method `format` which prints the strings in a specified format. Then the method returns
-- if `url.getPath.contains("/add-message")` then `String[] param = url.getQuery().split("=")` is called which splits the string into two and creates a new string array. Then, `System.out.println("Added " + param[1] + " to your messages!")` and `System.out.println(param[1])` is printed into the terminal and `String.format("Added %s to your messages!", param[1])` is returned which is displayed on the web page. Also, the feild variable `message` is updated by adding `"\n" + param[1]`. This variable represents what will be printed out when the path is just `/`.
+1. The user compiles and runs the code by calling `main()` with one argument which is a port number. This results in a link being created using the method `Integer.parseInt()` to create an integer out of the port number string argument followed by pluging it into `start()`. If there were no arguments, meaning `arr.length == 0`, then the program prints the error message `"Missing port number! Try any number between 1024 to 49151` and returns.
+2. Then the method `handleRequest()` takes in the url as an argument. Afterwhich, the following occurs:
+- if `url.getPath.equals("/")` then the website will display `Your messages:` with your messages displayed below it. It does this by calling the method `format()` which prints the strings in a specified format. Then the method returns.
+- if `url.getPath.contains("/add-message")` then `String[] param = url.getQuery().split("=")` is called which splits the string into two and creates a new string array. Then, `System.out.println("Added " + param[1] + " to your messages!")` and `System.out.println(param[1])` is printed into the terminal and `String.format("Added %s to your messages!", param[1])` is returned which is displayed on the web page. Also, the feild variable `message` is updated by adding `"\n" + param[1]`. This variable represents what will be printed out when the url's path is only `/`.
 - if `url.getPath.equals("/") == false || url.getPath.contains("/add-message") == false` then the `"404 Not Found!"` is returned and is displayed on the webpage.
 
 The relevant arguments of these methods are as follows:
@@ -49,11 +49,12 @@ The relevant arguments of these methods are as follows:
 - `handleRequest(http://localhost:7823/add-message?s=See%20you%20later!)`
 
 This methods works specifically as follows:
-1. The user compiles and runs the code by calling `main("7823")`. This results in a link being created using the method `Integer.parseInt("7823")` to create an integer out of the port number String argument followed by `start(7823, new Handler())` which the user can visit.
-2. Then the method `handleRequest(http://localhost:7823/add-message?s=See%20you%20later!)` takes in the url as an argument. Afterwhich the following occurs:
+1. The user compiles and runs the code by calling `main("7823")`. This results in a link being created using the method `Integer.parseInt("7823")` to create an integer out of the port number string argument followed by `start(7823, new Handler())`.
+2. Then the method `handleRequest(http://localhost:7823/add-message?s=See%20you%20later!)` takes in the url as an argument. Afterwhich, the following occurs:
 - `url.getPath.contains("/add-message")` is present so `String[] param = url.getQuery().split("=")` is called which splits the string into two and creates a new string array. Then, `System.out.println("Added " + "See you later!" + " to your messages!")` and `System.out.println("See you later!")` is printed into the terminal and `String.format("Added %s to your messages!", "See you later!")` is returned which is displayed on the web page. Also, the feild variable `message` is updated by adding `"\n" + "See you later!"`
 
-A field whose value is changed is `message` as `"\n" + "See you later!"` is added to it. Below is another two screenshots of my website when the path contains `add-message`:
+A field whose value is changed is `message` as `"\n" + "See you later!"` is added to it. Below is another two screenshots of my website when the path contains `add-message`.
+
 ![Image](CSE15L_LabReport2_ScreenShotWebsite2.1.png)
 
 ![Image](CSE15L_LabReport2_ScreenShotWebsite2.2.png)
@@ -91,11 +92,12 @@ The relevant arguments of these methods are as follows:
 - `handleRequest(http://localhost:7823/add-message?s=It%20was%20good%20seeing%20you!)`
 
 This methods works specifically as follows:
-1. The user compiles and runs the code by calling `main("7823")`. This results in a link being created using the method `Integer.parseInt("7823")` to create an integer out of the port number String argument followed by `start(7823, new Handler())` which the user can visit.
-2. Then the method `handleRequest(http://localhost:7823/add-message?s=It%20was%20good%20seeing%20you!)` takes in the url as an argument. Afterwhich the following occurs:
+1. The user compiles and runs the code by calling `main("7823")`. This results in a link being created using the method `Integer.parseInt("7823")` to create an integer out of the port number string argument followed by `start(7823, new Handler())`.
+2. Then the method `handleRequest(http://localhost:7823/add-message?s=It%20was%20good%20seeing%20you!)` takes in the url as an argument. Afterwhich, the following occurs:
 - `url.getPath.contains("/add-message")` is present so `String[] param = url.getQuery().split("=")` is called which splits the string into two and creates a new string array. Then, `System.out.println("Added " + "It was good seeing you!" + " to your messages!")` and `System.out.println("It was good seeing you!")` is printed into the terminal and `String.format("Added %s to your messages!", "It was good seeing you!")` is returned which is displayed on the web page. Also, the feild variable `message` is updated by adding `"\n" + "It was good seeing you!"`
 
 A field whose value is changed is `message` as `"\n" + "It was good seeing you!"` is added to it.
+
 ## Part 2
 
 For the method `reverseInPlace` there are two crutial bugs in the code:
