@@ -22,7 +22,7 @@ I used `<cd> <><l><a><b><7><enter>` to change the current directory to `lab7`. T
 
 I used the command `<v><i><m>< ><shift + l><tab><.><tab><enter><x><i><2><esc><:wq>` which allowed me to use vim to edit ListExamples.java by typing in `vim ListExamples.java` (again I used tab to auto fill). Then, when I entered vim, my cursor was already on the `1` of `index1` so I typed `x` to delete it. Then, I went into insert mode by typing `i` and then I typed `2` and to change `index` to `index2` then `esc` to leave insert mode. then I typed `:wq` to save my changes and return to commit mode. The timer is now at 1:35.
 
-![Image](CSE15L_LAB4_4.png)
+![Image](CSE_LAB4_4.png)
 
 ## Retesting the Code:
 
