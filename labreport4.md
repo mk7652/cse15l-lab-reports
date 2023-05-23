@@ -6,7 +6,7 @@ I ran the commands `<up><enter>` to go up 1 in the search history because the `s
 
 ![Image](CSE15L_LAB4_1.png)
 
-## Cloning the fork:
+## Cloning the Fork:
 
 I ran the commands `<g><i><t><space><c><l><o><n><e><space><copy><paste><enter>` to copy and paste the link from my fork which was `https://github.com/mk7652/lab7` which made the command `git clone git@github.com:mk7652/lab7.git` so that I could clone my fork of the repository into my `ieng6` server. The timer is at around 10 seconds now. Below is a picture of the command being run.
 
@@ -24,7 +24,7 @@ I used the command `<v><i><m><space><shift + l><tab><.><tab><enter><x><i><2><esc
 
 ![Image](CSE15L_LAB4_4.png)
 
-## Retesting the Code:
+## Re-testing the Code:
 
 I then ran the tests again by using`<up><up><enter>` to go two up in my history where `bash test.sh` was. The two tests now pass. The timer is now at 1:45. Below is a picture of the tests being re-run.
 
