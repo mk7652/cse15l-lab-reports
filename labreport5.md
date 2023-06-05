@@ -12,7 +12,7 @@ I am not exactly sure what may be causing this error but if I had to guess the b
 
 ## TA's Response:
 
-Hello, thank you for your question! You are correct, it looks like a syntax error is causing the symptom that you are experiencing. Try deleting the spaces between th `=` and the string corellated with the variable on lines 24, 26, and 27 and let me know if that works!
+Hello, thank you for your question! You are correct, it looks like a syntax error is causing the symptom that you are experiencing. Try deleting the spaces between the `=` and the string corellated with the variable on lines 24, 26, and 27 and let me know if that works!
 
 ## Student's Response:
 
