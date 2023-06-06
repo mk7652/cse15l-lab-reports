@@ -27,6 +27,23 @@ I just tried deleting the spaces and it fixed part of my error! I also looked th
 3. Correct implementation after fixing `TESTS_RAN=${RESULT:10:1}`:
 ![Image](CSE15L_labreport5_2.png)
 
+## All the Information about the files:
+
+Here are the important files before and after the bug was fixed:
+
+1. `grader.sh`:
+- Before:
+![Image](CSE15L_labreport5_1.2.png)
+
+- After:
+![Image](CSE15L_labreport5_2.png)
+
+2. `grader.txt`:
+- Before and after (they stayed the same)
+![Image](CSE15L_labreport5_3.png)
+
+I ran the command `$ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` to trigger the bug. My current working directory at the time was `list-examples-grader?organization=mk7652&organization=mk7652`. To fix the bug I first deleted the spaces on lines 23, 24, and 26. Then, I changed `$0` to `$1` and added a `$` on line 29. Lastly, I changed `TESTS_RAN=${RESULT:11:1}` to `TESTS_RAN=${RESULT:10:1}` on line 27. 
+
 ## Part 2
 
 ## Reflection:
