@@ -16,7 +16,7 @@ Hello, thank you for your question! You are partially correct, it looks like a s
 
 ## Student's Response:
 
-I just tried deleting the spaces and it fixed part of my error! I also looked through my code and I found out that I was taking in the argument `$0` instead of `$1`. Also, I noticed that on line 29 I was missing a `$`. Then, after I fixed that I relized that on line 27 it should have said `TESTS_RAN=${RESULT:11:1}` instead of `TESTS_RAN=${RESULT:10:1}` because it was taking the wrong part of the file `grader.txt` before I fixed it. Turns out the bugs in my code were that I had extra spaces between the `=` and the string, I was missing a `$`, I was taking in the wrong command line argument, and I was taking the wrong part from a file I was referencing. Here's what my code looks like now and my process of fixing it. Thank you so much for your help!
+I just tried deleting the spaces and it fixed part of my error! I also looked through my code and I found out that I was taking in the argument `$0` instead of `$1` on line 8. Also, I noticed that on line 29 I was missing a `$`. Then, after I fixed that I relized that on line 27 it should have said `TESTS_RAN=${RESULT:11:1}` instead of `TESTS_RAN=${RESULT:10:1}` because it was taking the wrong part of the file `grader.txt` before I fixed it. Turns out the bugs in my code were that I had extra spaces between the `=` and the string, I was missing a `$`, I was taking in the wrong command line argument, and I was taking the wrong part from a file I was referencing. Here's what my code looks like now and my process of fixing it. Thank you so much for your help!
 
 1. After fixing the spaces:
 ![Image](CSE15L_labreport5_1.3.png)
@@ -27,7 +27,7 @@ I just tried deleting the spaces and it fixed part of my error! I also looked th
 3. Correct implementation after fixing `TESTS_RAN=${RESULT:10:1}`:
 ![Image](CSE15L_labreport5_2.png)
 
-## All the Information about the files:
+## All the Information about the Files:
 
 Here are the important files before and after the bug was fixed:
 
@@ -42,7 +42,7 @@ Here are the important files before and after the bug was fixed:
 - Before and after (they stayed the same)
 ![Image](CSE15L_labreport5_3.png)
 
-I ran the command `$ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` to trigger the bug. My current working directory at the time was `list-examples-grader?organization=mk7652&organization=mk7652` but line 15 changes it to `grading-area`. To fix the bug I first deleted the spaces on lines 23, 24, and 26. Then, I changed `$0` to `$1` and added a `$` on line 29. Lastly, I changed `TESTS_RAN=${RESULT:11:1}` to `TESTS_RAN=${RESULT:10:1}` on line 27. 
+I ran the command `$ bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` to trigger the bug. My current working directory at the time was `list-examples-grader?organization=mk7652&organization=mk7652` but line 15 changes it to `grading-area`. To fix the bug I first deleted the spaces on lines 23, 24, and 26. Then, I changed `$0` to `$1` on line 8 and added a `$` on line 29. Lastly, I changed `TESTS_RAN=${RESULT:11:1}` to `TESTS_RAN=${RESULT:10:1}` on line 27. 
 
 ## Part 2
 
