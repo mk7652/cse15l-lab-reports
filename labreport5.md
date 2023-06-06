@@ -16,7 +16,7 @@ Hello, thank you for your question! You are partially correct, it looks like a s
 
 ## Student's Response:
 
-I just tried deleting the spaces and it fixed part of my error! I also looked through my code and I found out that I was taking in the argument `$0` instead of `$1`. Also, I noticed that on line 29 I was missing a `$`. Then, after I fixed that I relized that on line 27 it should have said `TESTS_RAN=${RESULT:11:1}` instead of `TESTS_RAN=${RESULT:10:1}` because it was taking the wrong part of the file `grader.txt` before I fixed it. Turns out the bug in my code was that I had extra spaces between the `=` and the string, I was missing a `$`, I was taking in the wrong command line argument, and I was taking the wrong part from a file I was referncing. Here's what my code looks like now and my process of fixing it. Thank you so much for your help!
+I just tried deleting the spaces and it fixed part of my error! I also looked through my code and I found out that I was taking in the argument `$0` instead of `$1`. Also, I noticed that on line 29 I was missing a `$`. Then, after I fixed that I relized that on line 27 it should have said `TESTS_RAN=${RESULT:11:1}` instead of `TESTS_RAN=${RESULT:10:1}` because it was taking the wrong part of the file `grader.txt` before I fixed it. Turns out the bugs in my code were that I had extra spaces between the `=` and the string, I was missing a `$`, I was taking in the wrong command line argument, and I was taking the wrong part from a file I was referencing. Here's what my code looks like now and my process of fixing it. Thank you so much for your help!
 
 1. After fixing the spaces:
 ![Image](CSE15L_labreport5_1.3.png)
